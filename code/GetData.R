@@ -9,3 +9,4 @@ polling <- read_sf(url)
 tmap_mode("view")
 tm_shape(polling) +
   tm_polygons(col = "blue", alpha = .3)
+
